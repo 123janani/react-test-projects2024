@@ -1,0 +1,13 @@
+.color-square {
+  font-family: sans-serif;
+  width: 300px;
+  display: inline-block;
+  color: white;
+  padding: 40px;
+  margin: 10px;
+  text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
