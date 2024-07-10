@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import FormValidator from './Components/FormValidator'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <FormValidator />
     </div>
   )
 }

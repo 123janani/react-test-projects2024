@@ -13,3 +13,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Initial React Test App 10/07/2024
 
+Used useState() hook to get user input data and set error/success message
