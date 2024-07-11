@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import DadJokes from './Components/Dog'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <DadJokes />
     </div>
   )
 }
