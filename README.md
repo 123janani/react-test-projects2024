@@ -13,4 +13,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Initial React Test App 11/07/2024
 
-Fetch data from an API using useEffect() hook
+Fetch data from an API and display them using useEffect() hook
