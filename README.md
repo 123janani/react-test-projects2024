@@ -15,3 +15,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 #### Use useEffect() hook
+#### Use localStorage
+* use local storage to set and get score so that it persists even if you refresh the app
+* refresh the page and still see the score from the previous render
