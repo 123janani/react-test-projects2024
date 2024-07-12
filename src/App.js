@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import ScoreKeeper from './Components/ScoreKeeper'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <ScoreKeeper />
     </div>
   )
 }
