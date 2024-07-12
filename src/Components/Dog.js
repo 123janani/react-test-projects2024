@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 const getDogPics = async () => {
+  // API: https://dog.ceo/dog-api/
   const response = await fetch("https://dog.ceo/api/breeds/image/random");
   const dog = await response.json();
 
@@ -8,20 +9,16 @@ const getDogPics = async () => {
 };
 
 export default function DogPics() {
-  // API: https://dog.ceo/dog-api/
-
+  
+// to display new random pic
   const [dogPic, setDogPic] = useState("");
 
+  // as side effect to 
   useEffect(() => {
     getDogPics().then((pic) => setDogPic(pic));
-  }, []);
+  }, [dogPic]);
 
   return (
-    // <div className="dog-pics">
-    //   <img src={dogPic} alt="" />
-    //   <button onClick={async (p) => setDogPic(await getDogPics())}>🐶</button>
-    // </div>
-
     <div className="dog-pics">
   <div className="dog-image-container">
     <img className="dog-image" src={dogPic} alt="Random dog" />
