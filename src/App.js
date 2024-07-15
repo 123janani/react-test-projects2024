@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import PixelArt from './Components/PixelArt'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <PixelArt />
     </div>
   )
 }
