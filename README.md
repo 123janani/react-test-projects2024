@@ -14,3 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Initial React Test App 16/07/2024
 
 ### Calculator:
+using useReducer() hook
