@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import SimpleCalculator from './Components/SimpleCalculator'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <SimpleCalculator/>
     </div>
   )
 }
