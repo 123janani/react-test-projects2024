@@ -12,4 +12,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Initial React Test App 15/07/2024
-use createContext() and useContext() hooks
+use useContext() hook
