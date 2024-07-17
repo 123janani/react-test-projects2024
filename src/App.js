@@ -1,10 +1,10 @@
 import './App.css'
-import ColorRenderer from './Components/ColorRenderer'
+import FocusInput from './Components/FocusInput'
 
 function App () {
   return (
     <div className='App'>
-      <ColorRenderer />
+      <FocusInput />
     </div>
   )
 }
